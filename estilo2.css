@@ -1,0 +1,64 @@
+header{
+    background-image: url(imagens/disneychanel.jpg);
+    height: 500px;
+  
+}
+.titulo{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    color: rgb(243, 243, 248);
+    text-decoration:underline;
+    
+}
+.cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+a{
+    border: 5px solid cornflowerblue;
+    padding: 10px;
+    height:30px;
+    width: 200px;
+    align-items: center;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+}
+a:hover{
+    color:blanchedalmond
+}
+h1{
+    text-align: center;
+    text-decoration:underline;
+    
+}
+section h1:hover{
+    color:rgb(5, 4, 80)
+}
+
+
+.conteudo{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+.noticias{
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+    border-radius: 100px;
+}
+img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.2);
+}
+.links{
+    border:0;
+}
+footer{
+    background-color: rgb(44, 74, 131) ;
+    height: 100px;
+    text-align: center;
+    
+}
